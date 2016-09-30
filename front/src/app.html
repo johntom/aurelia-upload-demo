@@ -1,0 +1,10 @@
+<template>
+    <form submit.delegate="submit(images)">
+        <input type="file"
+            name="images"
+            files.bind="images"
+            multiple>
+
+        <button type="submit">Send</button>
+    </form>
+</template>
